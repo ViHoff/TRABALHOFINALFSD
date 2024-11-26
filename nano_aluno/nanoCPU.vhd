@@ -97,7 +97,7 @@ architecture NCPU of NanoCPU is
 
 
 
- type stateType is (sFETCH, sEXE, sREAD, sWRITE, sEND, sALU, sWRITE, sJMP, sBRANCH); --complete
+ type stateType is (sFETCH, sEXE, sREAD, sWRITE, sEND, sALU, sJMP, sBRANCH); --complete
   signal state: stateType;
 
 
